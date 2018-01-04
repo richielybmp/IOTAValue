@@ -1,8 +1,5 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Net.Http;
+﻿using System;
 using System.Threading;
-using System.Xml;
 
 namespace IOTAValue
 {
@@ -21,7 +18,10 @@ namespace IOTAValue
             try
             {
                 Framework.IOTABTC();
-                Framework.IOTAUSD(); // iota - dolar
+                Framework.IOTAUSD();
+                Framework.XRPBTC();
+                Framework.XRPUSD();
+
                 Console.WriteLine();
                 Console.WriteLine();
             }

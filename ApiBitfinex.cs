@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace IOTAValue
+﻿namespace IOTAValue
 {
     public class ApiBitfinex
     {
-        public const double MyIOTAs = 31.97270471;
+        public const decimal MyIOTAs = 31.9727m;
+        public const decimal MyXRPs = 25.2809m;
+
         public const string GET_IOTAUSD = @"https://api.bitfinex.com/v1/pubticker/iotusd";
         public const string GET_IOTABTC = @"https://api.bitfinex.com/v1/pubticker/iotbtc";
+
+        public const string GET_RIPPLEUSD = @"https://api.bitfinex.com/v1/pubticker/xrpusd";
+        public const string GET_RIPPLEBTC = @"https://api.bitfinex.com/v1/pubticker/xrpbtc";
     }
 }
